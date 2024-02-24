@@ -137,6 +137,9 @@ const AboutPage = () => {
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Git
               </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Docker
+              </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
             <motion.svg
