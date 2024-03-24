@@ -29,6 +29,14 @@ const items = [
     img: "/Screenshot (397).png",
     link: "https://weather-app-virid-five-10.vercel.app/",
   },
+  {
+    id: 4,
+    color: "from-violet-300 to-purple-300",
+    title: "Object Detection App",
+    desc: "Created a basic object detection app with coco ssd ai model and react js ",
+    img: "/Screenshot (432).png",
+    link: "https://object-detection-snowy.vercel.app/",
+  },
 ];
 
 const PortfolioPage = () => {
