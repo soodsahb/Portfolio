@@ -15,6 +15,14 @@ const items = [
   },
   {
     id: 2,
+    color: "from-violet-300 to-purple-300",
+    title: "Iphone 15 pro clone ",
+    desc: "Created a beautiful apple website of Iphone 15 pro ,with gsap ,three.js and react.js and tracked performance of website with sentry. ",
+    img: "/Screenshot (433).png",
+    link: "https://iphone-15-pro-phi.vercel.app/",
+  },
+  {
+    id: 3,
     color: "from-blue-300 to-violet-300",
     title: "Movix",
     desc: "Created An Ott Platform with react js and Redux,Implemented serach functionality,lazy loading ui and inbuilt trailer features",
@@ -22,7 +30,7 @@ const items = [
     link: "https://movix-eqtg.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     color: "from-violet-300 to-purple-300",
     title: "Weather App",
     desc: "Created a basic weather and forecast app with react js using react select async paginate and react accessible accordian",
@@ -30,7 +38,7 @@ const items = [
     link: "https://weather-app-virid-five-10.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     color: "from-violet-300 to-purple-300",
     title: "Object Detection App",
     desc: "Created a basic object detection app with coco ssd ai model and react js ",
