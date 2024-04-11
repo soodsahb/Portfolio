@@ -15,6 +15,14 @@ const items = [
   },
   {
     id: 2,
+    color: "from-blue-300 to-violet-300",
+    title: "YOOM",
+    desc: "Created a Fully functioning zoom clone using typescript ,stream api,next.js ,clerk and tailwind css,it supports all features such as video calling,personal rooms ,recordings with amazing speed and incredible experience,ready to use saas software ",
+    img: "/Screenshot (435).png",
+    link: "https://zoom-clone-chi-tawny.vercel.app/",
+  },
+  {
+    id: 3,
     color: "from-violet-300 to-purple-300",
     title: "Iphone 15 pro clone ",
     desc: "Created a beautiful apple website of Iphone 15 pro ,with gsap ,three.js and react.js and tracked performance of website with sentry. ",
@@ -22,7 +30,7 @@ const items = [
     link: "https://iphone-15-pro-phi.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     color: "from-blue-300 to-violet-300",
     title: "Movix",
     desc: "Created An Ott Platform with react js and Redux,Implemented serach functionality,lazy loading ui and inbuilt trailer features",
@@ -30,21 +38,22 @@ const items = [
     link: "https://movix-eqtg.vercel.app/",
   },
   {
-    id: 4,
-    color: "from-violet-300 to-purple-300",
+    id: 5,
+    color: "from-red-300 to-blue-300",
     title: "Weather App",
     desc: "Created a basic weather and forecast app with react js using react select async paginate and react accessible accordian",
     img: "/Screenshot (397).png",
     link: "https://weather-app-virid-five-10.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     color: "from-violet-300 to-purple-300",
     title: "Object Detection App",
     desc: "Created a basic object detection app with coco ssd ai model and react js ",
     img: "/Screenshot (432).png",
     link: "https://object-detection-snowy.vercel.app/",
   },
+  
 ];
 
 const PortfolioPage = () => {
