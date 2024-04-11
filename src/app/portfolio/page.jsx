@@ -17,7 +17,7 @@ const items = [
     id: 2,
     color: "from-blue-300 to-violet-300",
     title: "YOOM",
-    desc: "Created a Fully functioning zoom clone using typescript ,stream api,next.js ,clerk and tailwind css,it supports all features such as video calling,personal rooms ,recordings with amazing speed and incredible experience,ready to use saas software ",
+    desc: "Created a Fully functioning zoom clone using typescript ,stream api,next.js ,clerk,Shadcn Ui and tailwind css,it supports all features such as video calling,personal rooms ,recordings with amazing speed and incredible experience,ready to use saas software ",
     img: "/Screenshot (435).png",
     link: "https://zoom-clone-chi-tawny.vercel.app/",
   },
