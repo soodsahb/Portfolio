@@ -39,6 +39,14 @@ const items = [
   },
   {
     id: 5,
+    color: "from-violet-300 to-purple-300",
+    title: "What's up",
+    desc: "Created a fully functioning realtime chat app with mern stack and socket io ,tailwind css and daisy ui ",
+    img: "/Screenshot (478).png",
+    link: "https://mern-chat-app-er1v.onrender.com",
+  },
+  {
+    id: 6,
     color: "from-red-300 to-blue-300",
     title: "Weather App",
     desc: "Created a basic weather and forecast app with react js using react select async paginate and react accessible accordian",
@@ -46,13 +54,14 @@ const items = [
     link: "https://weather-app-virid-five-10.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     color: "from-violet-300 to-purple-300",
     title: "Object Detection App",
     desc: "Created a basic object detection app with coco ssd ai model and react js ",
     img: "/Screenshot (432).png",
     link: "https://object-detection-snowy.vercel.app/",
   },
+ 
   
 ];
 
