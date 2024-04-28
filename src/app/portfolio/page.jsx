@@ -47,7 +47,7 @@ const items = [
   },
   {
     id: 6,
-    color: "from-violet-300 to-purple-300",
+    color: "from-blue-300 to-violet-300",
     title: "Youtube one line video description generator",
     desc: "Created a cool python project which fetch all comments of a video and generates a one line description of the video this project uses bart and bert models to generate the description ,its trains model live on sample data and then tells us if the video is good or bad ",
     img: "/Screenshot (495).png",
@@ -77,7 +77,7 @@ const PortfolioPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-90%"]);
 
   return (
     <motion.div
