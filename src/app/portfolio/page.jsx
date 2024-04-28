@@ -47,6 +47,14 @@ const items = [
   },
   {
     id: 6,
+    color: "from-violet-300 to-purple-300",
+    title: "Youtube one line video description generator",
+    desc: "Created a cool python project which fetche all comments of a video and generates a one line description of the video this project uses bart and bert models to generate the description",
+    img: "/Screenshot (495).png",
+    link: "https://github.com/soodsahb/youtube-one-line-video-description",
+  },
+  {
+    id: 7,
     color: "from-red-300 to-blue-300",
     title: "Weather App",
     desc: "Created a basic weather and forecast app with react js using react select async paginate and react accessible accordian",
@@ -54,7 +62,7 @@ const items = [
     link: "https://weather-app-virid-five-10.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     color: "from-violet-300 to-purple-300",
     title: "Object Detection App",
     desc: "Created a basic object detection app with coco ssd ai model and react js ",
