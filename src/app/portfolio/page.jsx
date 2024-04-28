@@ -49,7 +49,7 @@ const items = [
     id: 6,
     color: "from-violet-300 to-purple-300",
     title: "Youtube one line video description generator",
-    desc: "Created a cool python project which fetche all comments of a video and generates a one line description of the video this project uses bart and bert models to generate the description",
+    desc: "Created a cool python project which fetch all comments of a video and generates a one line description of the video this project uses bart and bert models to generate the description ,its trains model live on sample data and then tells us if the video is good or bad ",
     img: "/Screenshot (495).png",
     link: "https://github.com/soodsahb/youtube-one-line-video-description",
   },
