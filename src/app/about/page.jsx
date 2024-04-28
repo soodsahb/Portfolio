@@ -181,21 +181,22 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Content Writer
+                    Front End Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I wrote content and scripts for company edtech platform .{" "}
+                    Single-handedly making complete frontend of erp portal for company using react js.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2022
+                    Feb 2024-Present{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    MyTutor247
+                    Nu Look
                   </div>
                 </div>
+               
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
                   {/* LINE */}
