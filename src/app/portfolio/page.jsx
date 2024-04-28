@@ -99,7 +99,7 @@ const PortfolioPage = () => {
                 key={item.id}
               >
                 <div className="flex flex-col gap-8 text-white">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-5xl lg:mt-8 xl:text-7xl xl:">
+                  <h1 className="text-xl font-bold md:text-4xl lg:text-4xl lg:mt-8 xl:text-5xl xl:">
                     {item.title}
                   </h1>
                   <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-96 lg:h-64 xl:w-96 xl:h-64">
