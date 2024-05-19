@@ -71,6 +71,14 @@ const items = [
   },
   {
     id: 9,
+    color: "from-red-300 to-blue-300",
+    title: "Ip reporting system",
+    desc: "Created a basic ip reporting system using express js when user tries to access non existent route his ip is reported to another server",
+    img: "/Screenshot (508).png",
+    link: "https://github.com/soodsahb/ip-reporting-system/blob/main/index.js",
+  },
+  {
+    id: 10,
     color: "from-blue-300 to-violet-300",
     title: "Object Detection App",
     desc: "Created a basic object detection app with coco ssd ai model and react js ",
