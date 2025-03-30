@@ -47,6 +47,14 @@ const items = [
   },
   {
     id: 6,
+    color: "from-violet-300 to-purple-300",
+    title: "Grocer Figma Prototype ",
+    desc: "Created a beautiful and advanced figma protype for grocery app. ",
+    img: "/Screenshot (540).png",
+    link: "https://www.figma.com/proto/Fagpc5waDlMsryWFdfCMCa/Grocer?node-id=2002-2948&t=YyoNswy6UKg3pPyQ-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2002%3A2948",
+  },
+  {
+    id: 7,
     color: "from-blue-300 to-violet-300",
     title: "Movix",
     desc: "Created An Ott Platform with react js and Redux,Implemented serach functionality,lazy loading ui and inbuilt trailer features",
@@ -54,7 +62,7 @@ const items = [
     link: "https://movix-eqtg.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     color: "from-violet-300 to-purple-300",
     title: "What's up",
     desc: "Created a fully functioning realtime chat app with mern stack and socket io ,tailwind css and daisy ui ",
@@ -72,7 +80,7 @@ const items = [
   },
  
   {
-    id: 11,
+    id: 10,
     color: "from-blue-300 to-violet-300",
     title: "Object Detection App",
     desc: "Created a basic object detection app with coco ssd ai model and react js ",
