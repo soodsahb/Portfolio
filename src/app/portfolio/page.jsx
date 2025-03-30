@@ -77,18 +77,7 @@ const items = [
     desc: "Created a basic weather and forecast app with react js using react select async paginate and react accessible accordian",
     img: "/Screenshot (397).png",
     link: "https://weather-app-virid-five-10.vercel.app/",
-  },
- 
-  {
-    id: 10,
-    color: "from-blue-300 to-violet-300",
-    title: "Object Detection App",
-    desc: "Created a basic object detection app with coco ssd ai model and react js ",
-    img: "/Screenshot (432).png",
-    link: "https://object-detection-snowy.vercel.app/",
-  },
- 
-  
+  }
 ];
 
 const PortfolioPage = () => {
