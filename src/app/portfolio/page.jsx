@@ -21,6 +21,22 @@ const items = [
     img: "/Screenshot (529).png",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7298301370686676992/",
   },
+   {
+    id: 10,
+    color: "from-violet-300 to-purple-300",
+    title: "CARD-MATCHING-GAME",
+    desc: "Created a card matching multiplayer game with next.js and socket.io that allows player to play game in realtime",
+    img: "/Screenshot (143).png",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7321792814399311872/",
+  },
+  {
+    id: 11,
+    color: "from-violet-300 to-purple-300",
+    title: "Flipkart Price Tracker",
+    desc: "Created a flipkart price tracker with next.js and scraper api and notify.sh and cron jobs that keeps track of price of added product and notifies user whenever product's price drops so user can purchase.  ",
+    img: "/Screenshot (144).png",
+    link: "https://drive.google.com/file/d/1n9IuG-CHOsG5jYLSIDX7mQWB91Bguvj3/view?usp=drive_link",
+  },
   {
     id: 3,
     color: "from-blue-300 to-violet-300",
