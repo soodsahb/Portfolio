@@ -5,17 +5,22 @@ import Image from "next/image";
 import { useRef } from "react";
 import mySvg from "../../../public/mySvg.svg";
 
+
 const AboutPage = () => {
   const containerRef = useRef();
 
+
   const { scrollYProgress } = useScroll({ container: containerRef });
+
 
   const skillRef = useRef();
   // const isSkillRefInView = useInView(skillRef, {once:true});
   const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
 
+
   const experienceRef = useRef();
   const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
+
 
   return (
     <motion.div
@@ -97,6 +102,7 @@ const AboutPage = () => {
                 JavaScript
               </div>
 
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 React.js
               </div>
@@ -110,6 +116,7 @@ const AboutPage = () => {
                 Shadcn Ui
               </div>
 
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Tailwind CSS
               </div>
@@ -117,9 +124,11 @@ const AboutPage = () => {
                 MongoDB
               </div>
 
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Gsap
               </div>
+
 
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Framer Motion
@@ -175,25 +184,27 @@ const AboutPage = () => {
               animate={isExperienceRefInView ? { x: "0" } : {}}
               className=""
             >
-              {/* EXPERIENCE LIST ITEM */}
-              <div className="flex justify-between h-48">
+
+
+              {/* EXPERIENCE LIST ITEM - LEFT */}
+              <div className="flex justify-between min-h-48">
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Front End Developer
+                    Mern Stack Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Single-handedly making complete frontend of erp portal for company using react js.{" "}
+                    Worked as full stack developer used technologies like react.js,MUI,AWS,Node.js.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    Feb 2024-Present{" "}
+                    March 2025-SEP 25{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Nu Look
+                    IDEIOSOFT
                   </div>
                 </div>
                
@@ -208,8 +219,10 @@ const AboutPage = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 "></div>
               </div>
-              {/* EXPERIENCE LIST ITEM */}
-              <div className="flex justify-between h-48">
+
+
+              {/* EXPERIENCE LIST ITEM - RIGHT */}
+              <div className="flex justify-between min-h-48">
                 {/* LEFT */}
                 <div className="w-1/3 "></div>
                 {/* CENTER */}
@@ -221,6 +234,29 @@ const AboutPage = () => {
                   </div>
                 </div>
                 {/* RIGHT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Mern Stack Developer (Project Based Hiring)
+                  </div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic">
+                    Worked as full stack developer used technologies like react.js,MUI,AWS,Node.js and python.{" "}
+                  </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    March 2024-AUGUST 25{" "}
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    Zyng AI 
+                  </div>
+                </div>
+              </div>
+
+              {/* EXPERIENCE LIST ITEM - LEFT */}
+              <div className="flex justify-between min-h-48">
+                {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
@@ -240,6 +276,16 @@ const AboutPage = () => {
                     ThinkNext Technologies
                   </div>
                 </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
               </div>
               {/* EXPERIENCE LIST ITEM */}
             </motion.div>
@@ -253,5 +299,6 @@ const AboutPage = () => {
     </motion.div>
   );
 };
+
 
 export default AboutPage;

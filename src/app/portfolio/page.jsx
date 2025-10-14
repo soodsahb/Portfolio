@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
 
+
 const items = [
   {
     id: 1,
@@ -86,6 +87,7 @@ const items = [
     link: "https://mern-chat-app-er1v.onrender.com",
   },
 
+
   {
     id: 9,
     color: "from-red-300 to-blue-300",
@@ -96,11 +98,14 @@ const items = [
   }
 ];
 
+
 const PortfolioPage = () => {
   const ref = useRef();
 
+
   const { scrollYProgress } = useScroll({ target: ref });
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-90%"]);
+
 
   return (
     <motion.div
@@ -110,7 +115,7 @@ const PortfolioPage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
+        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-6xl md:text-8xl text-center">
           My Works
         </div>
         <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
@@ -121,18 +126,30 @@ const PortfolioPage = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex flex-col gap-8 text-white">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-4xl lg:mt-8 xl:text-5xl xl:">
+                <div className={`flex flex-col text-white px-4 ${
+                  item.id === 1 
+                    ? "gap-2 max-h-[75vh]" 
+                    : "gap-4 max-h-[85vh]"
+                } justify-center`}>
+                  <h1 className="text-xl font-bold md:text-3xl lg:text-3xl xl:text-4xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-96 lg:h-64 xl:w-96 xl:h-64">
-                    <Image src={item.img} alt="" fill />
+                  <div className={`relative ${
+                    item.id === 1
+                      ? "w-80 h-36 md:w-96 md:h-44 lg:w-[400px] lg:h-[180px] xl:w-[450px] xl:h-[200px]"
+                      : "w-80 h-48 md:w-96 md:h-56 lg:w-[420px] lg:h-[240px] xl:w-[480px] xl:h-[270px]"
+                  }`}>
+                    <Image src={item.img} alt="" fill className="object-contain" />
                   </div>
-                  <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
+                  <p className={`${
+                    item.id === 1
+                      ? "w-80 text-xs md:w-96 md:text-sm lg:w-[400px] lg:text-sm xl:w-[450px] xl:text-sm line-clamp-3"
+                      : "w-80 md:w-96 lg:w-[420px] lg:text-base xl:w-[480px]"
+                  }`}>
                     {item.desc}
                   </p>
-                  <Link href={item.link} className="flex justify-end ">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded ">
+                  <Link href={item.link} className="flex justify-end">
+                    <button className="p-2 text-sm md:p-3 md:text-base lg:p-3 lg:text-base bg-white text-gray-600 font-semibold rounded hover:bg-gray-100 transition-colors">
                       See Demo
                     </button>
                   </Link>
@@ -142,14 +159,14 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center mt-16">
-        <h1 className="text-8xl">Do you have a project?</h1>
+      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
+        <h1 className="text-6xl md:text-8xl px-4 mt-[200px]">Do you have a project?</h1>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}
             transition={{ duration: 8, ease: "linear", repeat: Infinity }}
             viewBox="0 0 300 300"
-            className="w-64 h-64 md:w-[500px] md:h-[500px] "
+            className="w-64 h-64 md:w-[500px] md:h-[500px]"
           >
             <defs>
               <path
@@ -174,5 +191,6 @@ const PortfolioPage = () => {
     </motion.div>
   );
 };
+
 
 export default PortfolioPage;
